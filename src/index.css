@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+  --header-h: 4.5rem;
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: calc(var(--header-h) + 1rem);
+  }
+  body {
+    @apply bg-canvas font-sans text-ink antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .page-container { @apply mx-auto w-full max-w-[1600px] px-4 sm:px-6 lg:px-12; }
+  .card { @apply rounded-xl border border-line bg-white shadow-card; }
+  .kicker { @apply text-[11px] font-medium uppercase tracking-[0.08em] text-ink-muted; }
+  .section-title { @apply text-xl font-semibold tracking-tight text-ink sm:text-2xl; }
+  .num { @apply font-semibold tabular-nums tracking-tight; }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-md bg-brand px-3 py-2.5 text-sm font-semibold text-white
+           shadow-card transition-colors hover:bg-brand-dark xl:px-4;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-line bg-white px-2.5 py-1 text-xs font-medium
+           text-ink-muted transition-colors hover:border-brand/40 hover:text-brand;
+  }
+  .chip[aria-pressed='true'] { @apply border-brand bg-brand-soft text-brand; }
+}

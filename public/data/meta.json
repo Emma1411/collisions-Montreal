@@ -1,0 +1,251 @@
+{
+ "genere_le": "2026-10-21",
+ "annees": [
+  2012,
+  2021
+ ],
+ "jours": [
+  "LU",
+  "MA",
+  "ME",
+  "JE",
+  "VE",
+  "SA",
+  "DI"
+ ],
+ "totaux": {
+  "retenues": 131200,
+  "blesses": 47974,
+  "graves": 1786,
+  "mortelles": 263
+ },
+ "stabilite": {
+  "persistants": 37,
+  "recents": 63,
+  "anciens": 63,
+  "top50_en_commun": 19
+ },
+ "libelles": {
+  "gravite": {
+   "1": "Dommages matériels seulement",
+   "2": "Léger",
+   "3": "Grave",
+   "4": "Mortel"
+  },
+  "surface": {
+   "11": "Sèche",
+   "12": "Mouillée",
+   "13": "Accumulation d'eau",
+   "14": "Sable, gravier",
+   "15": "Gadoue/neige fondante",
+   "16": "Enneigée",
+   "17": "Neige durcie",
+   "18": "Glacée",
+   "19": "Boueuse",
+   "20": "Huileuse",
+   "99": "Autre"
+  },
+  "eclairage": {
+   "1": "Jour et clarté",
+   "2": "Jour et demi-obscurité",
+   "3": "Nuit et chemin éclairé",
+   "4": "Nuit et chemin non éclairé"
+  },
+  "meteo": {
+   "11": "Clair",
+   "12": "Couvert",
+   "13": "Brouillard/brume",
+   "14": "Pluie/bruine",
+   "15": "Averse",
+   "16": "Vent fort",
+   "17": "Neige/grêle",
+   "18": "Poudrerie/tempête de neige",
+   "19": "Verglas",
+   "99": "Autre"
+  },
+  "categorie": {
+   "11": "Bretelle/voie de service",
+   "12": "Route numérotée",
+   "13": "Artère principale",
+   "14": "Rue résidentielle",
+   "15": "Chemin/rang",
+   "16": "Ruelle",
+   "19": "Autre chemin public",
+   "21": "Terrain de stationnement",
+   "22": "Terrain privé",
+   "23": "Chemin privé",
+   "24": "Chemin forestier",
+   "25": "Sentier balisé",
+   "29": "Hors chemin public : autre"
+  },
+  "localisation": {
+   "31": "Carrefour giratoire",
+   "32": "En intersection (< 5 m)",
+   "33": "Près d'une intersection",
+   "34": "Entre intersections",
+   "35": "Passage à niveau",
+   "36": "Pont",
+   "37": "Viaduc",
+   "38": "Tunnel",
+   "39": "Sous un pont/viaduc",
+   "40": "Centre commercial",
+   "99": "Autres"
+  },
+  "genre": {
+   "31": "Collision avec véhicule routier",
+   "32": "Collision avec piéton",
+   "33": "Collision avec cycliste",
+   "34": "Collision avec train",
+   "35": "Collision avec chevreuil",
+   "36": "Collision avec orignal/ours/caribou",
+   "37": "Collision avec autre animal",
+   "38": "Collision avec obstacle temporaire",
+   "39": "Collision avec objet projeté/détaché",
+   "40": "Objet fixe : lampadaire",
+   "41": "Objet fixe : support/feu de signalisation",
+   "42": "Objet fixe : poteau",
+   "43": "Objet fixe : arbre",
+   "44": "Objet fixe : glissière de sécurité",
+   "45": "Objet fixe : atténuateur d'impact",
+   "46": "Objet fixe : extrémité de glissière",
+   "47": "Objet fixe : pilier",
+   "48": "Objet fixe : amoncellement de neige",
+   "49": "Objet fixe : bâtiment/édifice/mur",
+   "50": "Objet fixe : bordure/trottoir",
+   "51": "Objet fixe : borne-fontaine",
+   "52": "Objet fixe : clôture/barrière",
+   "53": "Objet fixe : fossé",
+   "54": "Objet fixe : paroi rocheuse",
+   "55": "Objet fixe : ponceau",
+   "59": "Objet fixe : autre",
+   "71": "Sans collision : capotage",
+   "72": "Sans collision : renversement",
+   "73": "Sans collision : submersion",
+   "74": "Sans collision : feu/explosion",
+   "75": "Sans collision : quitte la chaussée",
+   "99": "Sans collision : autre"
+  }
+ },
+ "traits": [
+  "piétons",
+  "cyclistes",
+  "motos",
+  "collisions de nuit",
+  "collisions en hiver",
+  "fin de semaine",
+  "heures de pointe",
+  "part de blessés",
+  "part de graves",
+  "artère principale"
+ ],
+ "qualite": {
+  "lignes_lues": 218272,
+  "exclues_sous_seuil": 87072,
+  "retenues": 131200,
+  "heure_inconnue_toutes": 17245,
+  "heure_inconnue_retenues": 6428,
+  "positions_imprecises_pct": 8.8,
+  "coordonnees_invalides": 11,
+  "vitesse_vide_pct": 37.1,
+  "hors_chemin_public": 11107,
+  "rupture_annuelle": [
+   {
+    "annee": 2012,
+    "sous_seuil": 15521,
+    "dm_seulement": 10785,
+    "leger": 5089,
+    "grave": 225,
+    "mortel": 32
+   },
+   {
+    "annee": 2013,
+    "sous_seuil": 15627,
+    "dm_seulement": 10756,
+    "leger": 4978,
+    "grave": 219,
+    "mortel": 27
+   },
+   {
+    "annee": 2014,
+    "sous_seuil": 8140,
+    "dm_seulement": 8220,
+    "leger": 4801,
+    "grave": 219,
+    "mortel": 22
+   },
+   {
+    "annee": 2015,
+    "sous_seuil": 8123,
+    "dm_seulement": 8249,
+    "leger": 4959,
+    "grave": 220,
+    "mortel": 23
+   },
+   {
+    "annee": 2016,
+    "sous_seuil": 7962,
+    "dm_seulement": 8498,
+    "leger": 5005,
+    "grave": 184,
+    "mortel": 24
+   },
+   {
+    "annee": 2017,
+    "sous_seuil": 8421,
+    "dm_seulement": 8551,
+    "leger": 4887,
+    "grave": 178,
+    "mortel": 27
+   },
+   {
+    "annee": 2018,
+    "sous_seuil": 7958,
+    "dm_seulement": 8664,
+    "leger": 4651,
+    "grave": 167,
+    "mortel": 25
+   },
+   {
+    "annee": 2019,
+    "sous_seuil": 6653,
+    "dm_seulement": 8033,
+    "leger": 4493,
+    "grave": 132,
+    "mortel": 28
+   },
+   {
+    "annee": 2020,
+    "sous_seuil": 4314,
+    "dm_seulement": 5796,
+    "leger": 3010,
+    "grave": 137,
+    "mortel": 29
+   },
+   {
+    "annee": 2021,
+    "sous_seuil": 4353,
+    "dm_seulement": 5674,
+    "leger": 4052,
+    "grave": 105,
+    "mortel": 26
+   }
+  ]
+ },
+ "etendue": {
+  "lat": [
+   45.402681,
+   45.702491
+  ],
+  "lon": [
+   -73.970506,
+   -73.481599
+  ]
+ },
+ "source": {
+  "titre": "Collisions routières",
+  "fournisseur": "Ville de Montréal (Données Québec)",
+  "licence": "CC BY 4.0",
+  "dictionnaire": "Société de l'assurance automobile du Québec",
+  "avis": "Projet indépendant, non affilié à la Ville de Montréal ni à la SAAQ."
+ }
+}
