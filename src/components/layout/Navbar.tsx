@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Compass, Download, Info, Menu, X } from 'lucide-react';
+import { Compass, Download, Menu, X } from 'lucide-react';
 import { useAppSelector } from '../../hooks/useAppSelector';
 import { SOURCE_URL } from '../../utils/constants';
 
