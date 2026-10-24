@@ -38,3 +38,6 @@ export const METEO_GROUPES: Groupe[] = [
   { key: 'pluie', label: 'Pluie / averses', codes: [14, 15] },
   { key: 'neige', label: 'Neige / grêle / verglas', codes: [17, 18, 19] },
 ];
+
+export const SURFACE_NON_SECHE = [12, 13, 15, 16, 17, 18];
+export const ECLAIRAGE_SOMBRE = [2, 3, 4];                  

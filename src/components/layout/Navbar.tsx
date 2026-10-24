@@ -53,13 +53,7 @@ export default function Navbar() {
             <span className="hidden xl:inline">Télécharger les données ouvertes</span>
             <span className="sr-only xl:hidden">Télécharger les données ouvertes</span>
           </a>
-          <Link
-            to="/methodologie"
-            aria-label="À propos des données"
-            className="hidden size-10 place-items-center rounded-md text-ink-muted hover:bg-canvas hover:text-ink sm:grid"
-          >
-            <Info className="size-5" aria-hidden />
-          </Link>
+         
           <button
             type="button"
             className="grid size-10 place-items-center rounded-md text-ink-muted hover:bg-canvas lg:hidden"

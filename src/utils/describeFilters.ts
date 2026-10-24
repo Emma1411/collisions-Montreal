@@ -1,5 +1,7 @@
 import type { Filters, GraviteFiltre, Lieu, Usager } from '../interfaces/filters';
 import { P1_FIN } from './constants';
+import { DEFAULT_FILTERS as D } from '../interfaces/filters';
+
 
 const QUOI: Record<GraviteFiltre, string> = {
   toutes: 'Toutes les collisions',
@@ -15,4 +17,8 @@ export function describeFilters(f: Filters, [a0, a1]: [number, number]): string 
   const quand = f.periode === 'p1' ? `de ${a0} à ${P1_FIN}` : f.periode === 'p2' ? `de ${P1_FIN + 1} à ${a1}` : `de ${a0} à ${a1}`;
   const qui = f.usagers.length ? ` impliquant ${liste(f.usagers.map(u => QUI[u]))}` : '';
   return `${QUOI[f.gravite]}${qui}${OU[f.lieu]}, ${quand}`;
+}
+
+export function activeFilterCount(f: Filters): number {
+  return (f.periode !== D.periode ? 1 : 0) + (f.gravite !== D.gravite ? 1 : 0) + (f.usagers.length ? 1 : 0) + (f.lieu !== D.lieu ? 1 : 0);
 }

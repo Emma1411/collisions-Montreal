@@ -1,5 +1,4 @@
 import { useAppSelector } from '../../hooks/useAppSelector';
-import { APP_VERSION } from '../../utils/constants';
 import { fmtDate } from '../../utils/format';
 
 export default function Footer() {
@@ -21,7 +20,6 @@ export default function Footer() {
               Données générées le {fmtDate(meta.genere_le)}
             </span>
           )}
-          <span>Plateforme citoyenne v{APP_VERSION}</span>
         </div>
       </div>
     </footer>

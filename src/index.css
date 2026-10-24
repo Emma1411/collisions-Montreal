@@ -38,3 +38,7 @@
   }
   .chip[aria-pressed='true'] { @apply border-brand bg-brand-soft text-brand; }
 }
+
+.carte-popup .maplibregl-popup-content {
+  @apply rounded-lg px-3 py-2 text-xs text-ink shadow-card;
+}

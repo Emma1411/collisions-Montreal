@@ -1,6 +1,8 @@
+
 export const MOIS_BASE = 1;
 export const JOUR_BASE = 0;
 export const HEURE_INCONNUE = 255;
+export const CODE_NON_PRECISE = 0;
 export const INTER_AUCUNE = 65535;
 export const N_ANNEES = 10;
 export const P1_FIN = 2016;

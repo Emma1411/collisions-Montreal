@@ -1,6 +1,7 @@
+
 import { COLORS } from '../../utils/colors';
 
-export const SEVERITIES = [
+const SEVERITIES = [
   { label: 'Mortelle', color: COLORS.mortel, def: 'au moins une personne est décédée' },
   { label: 'Grave', color: COLORS.grave, def: 'blessure grave, sans décès' },
   { label: 'Légère', color: COLORS.leger, def: 'blessures légères seulement' },
